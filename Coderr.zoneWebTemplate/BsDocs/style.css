@@ -1,0 +1,133 @@
+/*DARK BACKGROUND*/
+.dark-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('../photos/J2GE.gif');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.dark-bg2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('../photos/main_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 50vh;
+}
+
+.generic {
+    padding: 100px 0;
+}
+
+/*LATEST SECTION*/
+
+section#latest .latest-item img {
+    min-height: 100%;
+    width: 100%;
+}
+
+section#latest button {
+    max-height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#latest .latest-item {
+    position: relative;
+}
+
+section#latest .latest-item:hover .overlay {
+    opacity: 1;
+    background: rgba(189, 61, 75, .9);
+}
+
+section#latest .latest-item:hover i {
+    opacity: 1;
+    transform: none;
+}
+
+section#latest .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(189, 61, 75, 1);
+    opacity: .5;
+    color: #fff;
+    transition: all .5s;
+
+}
+
+section#latest .overlay i {
+    transform: translateY(20px);
+    transition: all .5s;
+    opacity: 0;
+    font-size: 2rem;
+}
+
+/*BLOG CARDS SECTION*/
+section#blog .card:hover{
+    cursor:pointer;
+    scale: 1.03;
+    transition: all ease-out .4s;
+    border-radius: 5%;
+}
+
+.mybutton{
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    
+    
+}
+
+.box {
+    transform: translateX(4%);
+    transition: transform 0.4s ease;
+  }
+  
+  .box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
+  }
+  
+  .box h2 {
+    font-size: 45px;
+  }
+
+  /*THE TEAM SECTION BACKGROUND*/
+  .bg-infoo {
+    background: linear-gradient(145deg,rgb(152, 74, 74),rgb(107, 44, 44),rgb(38, 1, 1));
+  }
+  .btn-infoo:hover{
+    background: linear-gradient(145deg,rgb(152, 74, 74),rgb(107, 44, 44),rgb(38, 1, 1));
+    
+  }
+
+  .bg-scs {
+    background: linear-gradient(145deg,rgba(22, 28, 1, 0.872),rgba(144, 155, 101, 0.872),rgba(192, 196, 177, 0.872));
+  }
+  .btn-scs:hover{
+    background: linear-gradient(145deg,rgba(22, 28, 1, 0.872),rgba(144, 155, 101, 0.872),rgba(192, 196, 177, 0.872));
+    
+  }
+
+  .bg-wrn {
+    background: linear-gradient(145deg,rgba(92, 255, 38, 0.872),rgba(26, 169, 13, 0.548),rgba(255, 242, 98, 0.336));
+  }
+  .btn-wrn:hover{
+    background: linear-gradient(145deg,rgba(92, 255, 38, 0.872),rgba(26, 169, 13, 0.548),rgba(255, 242, 98, 0.336));
+  }
+
+  .bg-dng {
+    background: linear-gradient(145deg,rgb(243, 221, 52),rgba(130, 129, 55, 0.548),rgba(84, 86, 8, 0.829));
+  }
+  .btn-dng:hover{
+    background: linear-gradient(145deg,rgb(243, 221, 52),rgba(130, 129, 55, 0.548),rgba(84, 86, 8, 0.829));
+   
+  }
